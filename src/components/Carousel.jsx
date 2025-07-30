@@ -1,21 +1,15 @@
-import "./App.css";
+import './App.css';
 import LikeButton from './components/LikeButton';
-
-function App() {
-  return (
-    <div>
-      <h1>React State Training</h1>
-      <LikeButton />
-    </div>
-  );
-}
-
-
+import Counter from './components/Counter';
+import Dice from './components/Dice';
 
 function App() {
   return (
     <div className="App">
-      <h1> LAB | React Training</h1>
+      <h1>React State Training</h1>
+      <LikeButton />
+      <Counter />
+      <Dice />
     </div>
   );
 }
